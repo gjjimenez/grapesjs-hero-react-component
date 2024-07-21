@@ -16,7 +16,7 @@ export default function Home() {
       fromElement: true,
       showOffsets: true,
       noticeOnUnload: false,
-      storageManager: false,
+      storageManager: true,
       plugins: [Parser, BaseReactComponent, ReactComponents],
       canvasCss: ".gjs-plh-image {width:auto;height:auto;}",
     });
